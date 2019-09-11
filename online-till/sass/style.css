@@ -1,0 +1,213 @@
+/* Colors */
+/* Buttons */
+.button {
+  border: none;
+  border-radius: 7px;
+  padding: 20px 40px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.button_lgiht {
+  background-color: #fff;
+}
+
+.button_dark {
+  background-color: #796eff;
+  color: #ffffff;
+}
+
+.button_black {
+  background-color: #040c1f;
+  color: #ffffff;
+}
+
+.input {
+  max-width: 1px solid #95989a;
+  padding: 21px 30px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-size: 16px;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.header {
+  background: #040c1f url("../img/main-bg.jpg") center no-repeat/cover;
+  padding: 70px 0 100px;
+  color: #ffffff;
+}
+
+.header-top {
+  margin-bottom: 90px;
+}
+
+.header-phones {
+  text-align: right;
+}
+
+.header-phones__number {
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 60px;
+}
+
+.header__description {
+  font-size: 30px;
+  margin-bottom: 60px;
+}
+
+.header__triggers {
+  margin-bottom: 60px;
+}
+
+.section {
+  padding: 90px 0;
+}
+
+.section_dark {
+  background-color: #040c1f;
+  color: #ffffff;
+}
+
+.section-title {
+  font-size: 30px;
+}
+
+.section-title_dark {
+  font-size: 36px;
+  line-height: 1.4;
+}
+
+.section__title {
+  margin-bottom: 100px;
+}
+
+.section__description {
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.section__form {
+  margin-bottom: 70px;
+}
+
+.product-card {
+  text-align: center;
+  padding: 30px;
+  -webkit-box-shadow: 0 3px 15px rgba(51, 51, 51, 0.19);
+          box-shadow: 0 3px 15px rgba(51, 51, 51, 0.19);
+  border-radius: 7px;
+}
+
+.product-card__title {
+  font-size: 24px;
+}
+
+.product-card__text {
+  margin-bottom: 20px;
+}
+
+.product-card__price {
+  display: block;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.product-card__button {
+  display: block;
+  width: 100%;
+}
+
+.product__card {
+  margin-bottom: 24px;
+}
+
+.help {
+  background: #040c1f url("../img/help.png") no-repeat center right 15%/250px;
+}
+
+.form__input {
+  vertical-align: middle;
+  margin-right: 15px;
+  min-width: 250px;
+}
+
+.form_button {
+  vertical-align: middle;
+}
+
+.policy-link {
+  color: #ffffff;
+}
+
+.extra {
+  background: url("../img/extra-bg-top.png") left top no-repeat;
+}
+
+.extra-card {
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  padding: 25px;
+  -ms-flex-preferred-size: 24%;
+      flex-basis: 24%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: inherit;
+      -ms-flex-pack: inherit;
+          justify-content: inherit;
+}
+
+.extra-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.extra-card__title {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.extra-card__text {
+  min-height: 85px;
+  margin-bottom: 20px;
+}
+
+.extra-card__price {
+  font-size: 24px;
+  color: #796eff;
+  margin-bottom: 20px;
+}
+
+.reasons {
+  background: url("../img/reason-bg.png") no-repeat right bottom;
+}
+
+.reason:before {
+  content: '';
+  display: inline-block;
+  vertical-align: bottom;
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+  background: url("../img/check.png") center no-repeat/100%;
+}
+/*# sourceMappingURL=style.css.map */
